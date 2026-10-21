@@ -613,3 +613,11 @@ a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* Reset native button styling for the mobile navigation toggle. */
+button.nav-toggle {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+html { scroll-behavior: smooth; }
